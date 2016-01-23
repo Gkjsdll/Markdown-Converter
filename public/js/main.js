@@ -5,9 +5,9 @@ var $goConvert, $mdInput, $htmlOutput;
 $(document).ready(init);
 
 function init(){
-  $('#goConvert').click(convertMD);
   $mdInput = $('#mdInput');
   $htmlOutput = $('#htmlOutput');
+  $mdInput.keyup(convertMD)
 }
 
 function convertMD(){

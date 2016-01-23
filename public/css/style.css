@@ -24,16 +24,6 @@ body {
   overflow-y: scroll;
 }
 
-#goConvert {
-  margin: 24px auto;
-  left: 0px;
-  right: 0px;
-  display: inline-block;
-}
-
-#goConvContainer {
-  width: 100%;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-  text-align: center;
+#mdInput:focus {
+  outline: 0px
 }
