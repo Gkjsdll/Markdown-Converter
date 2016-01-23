@@ -6,9 +6,15 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div id="mdInput"></div>
-  <div id="htmlOutput"></div>
-  <button id="goConvert"></button>
+  <div id="boxContainer">
+    <textarea id="mdInput" placeholder="Enter markdown here..."></textarea>
+    <textarea id="htmlOutput" placeholder="... to see HTML here!"></textarea>
+  </div>
+  <div id="goConvContainer">
+    <button id="goConvert">Convert Markdown</button>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

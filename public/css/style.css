@@ -1,0 +1,34 @@
+body {
+  margin: 0px 0px 0px 0px;
+}
+
+#boxContainer {
+  margin-top: calc(5vw - 2px)
+}
+
+#mdInput, #htmlOutput {
+  width: 40%;
+  max-width: 40%;
+  height: 400px;
+  margin: 0px calc(5% - 2px) 0px calc(5% - 2px);
+  padding: 10px 10px 10px 10px;
+  border: 1px solid black;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: inline-block;
+  resize: none;
+}
+
+#goConvert {
+  margin: 24px auto;
+  left: 0px;
+  right: 0px;
+  display: inline-block;
+}
+
+#goConvContainer {
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+}
