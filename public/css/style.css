@@ -1,5 +1,8 @@
 body {
   margin: 0px 0px 0px 0px;
+  text-align: center;
+  padding-top: 24px;
+  background-color: #f0f0f0;
 }
 
 #boxContainer {
@@ -7,6 +10,7 @@ body {
 }
 
 #mdInput, #htmlOutput {
+  background-color: white;
   width: 40%;
   max-width: 40%;
   height: 400px;
