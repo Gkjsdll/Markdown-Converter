@@ -14,7 +14,7 @@ function convertMD(){
   $.post("/markdown", {"Text":$mdInput.val()})
   .success(function(data){
     console.log("Success! Now do a thing!");
-    $htmlOutput.empty().append(data);
+    $htmlOutput.empty().append($.parseHTML(data)); //this was working without parseHTML, why is it specifically part of the MVP?
   })
   .fail(function(err){
     console.log("Failure! Fix your shit!");
