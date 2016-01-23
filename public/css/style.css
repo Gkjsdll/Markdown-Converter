@@ -26,6 +26,7 @@ body {
   vertical-align: top;
   overflow-y: scroll;
   text-align: left;
+  font-size: 12px;
 }
 
 #mdInput:focus {
