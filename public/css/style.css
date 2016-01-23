@@ -17,6 +17,11 @@ body {
   padding-right: 0px;
   display: inline-block;
   resize: none;
+  vertical-align: top;
+}
+
+#htmlOutput {
+  overflow-y: scroll;
 }
 
 #goConvert {
